@@ -1,21 +1,3 @@
-/*
- SmartAttendance.java
- A simple Java Swing Desktop Smart Attendance Management System (single-file)
- - Stores students in students.csv (id,name,year,department)
- - Stores attendance in attendance.csv (date,studentId,status:Present/Absent)
- - Simple secure login (default: admin / admin123)
-
- How to run (VS Code):
- 1. Install Java (JDK 8 or higher).
- 2. Save this file as SmartAttendance.java in a folder.
- 3. Open folder in VS Code, open a terminal and run:
-      javac SmartAttendance.java
-      java SmartAttendance
-
- This is a single-file educational demo. For production use, switch to a proper DB,
- password hashing, and multi-user security.
-*/
-
 import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
